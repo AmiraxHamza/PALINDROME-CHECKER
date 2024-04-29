@@ -3,4 +3,4 @@
 
 Finished 29.04.24
 
-live site :
+live site : [https://amiraxhamza.github.io/PALINDROME-CHECKER/]
