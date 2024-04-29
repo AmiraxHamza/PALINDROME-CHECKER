@@ -15,9 +15,9 @@ const palindrome = () => {
   const cleanText = runTest.join("");
   const reverseText = runTest.reverse().join("");
   if (cleanText === reverseText) {
-    result.innerHTML = `${text.value} is a palindrome`;
+    result.innerHTML = `${text.value} is a palindrome!`;
   } else {
-    result.innerHTML = `${text.value} is not a palindrome`;
+    result.innerHTML = `${text.value} is not a palindrome!`;
   }
 };
 
