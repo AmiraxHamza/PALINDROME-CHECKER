@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome Checker</title>
+    <link
+      rel="shortcut icon"
+      href="img/icons8-alphabets-16.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@600&family=Oswald&family=Truculenta:opsz,wght@12..72,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <h1>Is it a Palindrome?</h1>
+      <div class="word_input">
+        <label for="text-input">Enter text to check for a Palindrome:</label>
+        <div>
+          <input
+            class="text-input"
+            id="text-input"
+            type="text"
+            autocomplete="off"
+            placeholder="Type here"
+          />
+          <button id="check-btn" class="check-btn">Check</button>
+        </div>
+        <div class="result" id="result">Pick a word...any word.</div>
+      </div>
+      <div class="hint">
+        💡 A <i>palindrome</i> is a word or sentence that's spelled the same way
+        both forward and backward, ignoring punctuation, case, and spacing.
+      </div>
+    </div>
+    <div class="attribution">
+      <p>
+        Created by
+        <a href="https://github.com/AmiraxHamza" target="_blank">Amira Hamza</a>
+        on FreeCodeCamp.
+      </p>
+    </div>
+  </body>
+</html>
