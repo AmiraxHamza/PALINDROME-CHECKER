@@ -22,3 +22,4 @@ const palindrome = () => {
 };
 
 button.addEventListener("click", alertMsg);
+text.addEventListener("keydown", palindrome);
